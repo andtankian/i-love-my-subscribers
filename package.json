@@ -1,0 +1,24 @@
+{
+  "name": "heart-subscribers",
+  "author": {
+    "name": "Andrew Ribeiro",
+    "email": "andtankian@gmail.com",
+    "url": "https://github.com/andtankian"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "framer-motion": "^1.11.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  }
+}
