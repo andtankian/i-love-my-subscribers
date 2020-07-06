@@ -63,7 +63,7 @@ function App() {
           whileTap={{ scale: 0.9 }}
           onTap={() => setContact(!contact)}
         />{" "}
-        meus inscritos.
+        vocês.
       </Message>
       <AnimatePresence exitBeforeEnter>
         {contact && <Contact onClose={() => setContact(!contact)} />}
